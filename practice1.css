@@ -1,0 +1,72 @@
+/*ease-in trasition*/
+.star{
+    width: auto;
+    height: 350px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    align-self: center;
+    font-size: 50px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.star a:visited{
+    text-decoration: none;
+    color: #291f4d;
+}
+
+.star a{
+    color: rgb(56, 55, 37);
+    -moz-transition: all 5s ease-in;
+    -o-transition: all 5s ease-in;
+    -webkit-transition: all 5s ease-in;
+    transition: all 5s ease-in;
+}
+
+.star a:hover{
+    color: #FFF9C4;
+    text-shadow: 0px 1px 12px #FFF9C4;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+/*ease-out transition*/
+.ghost{
+    width: auto;
+    height: 350px;
+    background-color: rgb(214, 237, 252);
+    display: flex;
+    justify-content: center;
+}
+
+.ghost a:visited{
+    text-decoration: none;
+    color: rgba(6, 53, 53, 0.021);
+}
+
+.ghost a{
+    color: rgb(3, 85, 85);
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; 
+}
+
+.ghost a:hover{
+    color: aliceblue;
+    text-shadow: 0px 1px 12px aliceblue;
+    -moz-transition: all 5s ease-out;
+    -o-transition: all 5s ease-out;
+    -webkit-transition: all 5s ease-out;
+    transition: all 5s ease-out;
+}
